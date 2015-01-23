@@ -9,23 +9,25 @@
 
 .tnr {
   font-family: 'Times New Roman', Times, serif;
-  /*src: url('../07YsashisaGothicTegaki.otf') format('opentype'); */ }
-
-  .opaque {
-  	background-color: rgba(255,255,255,0.3);   
-  }
-
-  .supermega  { font-size: 14rem; }
-
-   @media (min-width: 600px) {
-#hoverhax:hover:after{
-  content:  '<--- ' attr(data);
-  background: white;
-  position: absolute;
-  color: black;
-  padding: 12px 10px;
-  font-size: 0.5em;
 }
+
+
+.opaque {
+  	background-color: rgba(255,255,255,0.3);   
+}
+
+.supermega  { font-size: 14rem; 
+}
+
+@media (min-width: 600px) {
+	#hoverhax:hover:after {
+	  content:  '<--- ' attr(data);
+	  background: white;
+	  position: absolute;
+	  color: black;
+	  padding: 12px 10px;
+	  font-size: 0.5em;
+	}
 }
 
 .tegaki {
@@ -34,5 +36,5 @@
 }
 
 div#okshadow {
-width: fit-content; 
+	width: fit-content; 
 }
