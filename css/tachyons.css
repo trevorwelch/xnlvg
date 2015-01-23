@@ -5389,6 +5389,10 @@ img {
     padding: 12px 10px;
     font-size: 0.5em; } }
 
+.tegaki {
+  font-family: '07YsashisaGothicTegaki';
+  src: url('../07YsashisaGothicTegaki.otf') format('opentype'); }
+
 /*
    VERTICAL ALIGN
 */
