@@ -16,3 +16,14 @@
   }
 
   .supermega  { font-size: 14rem; }
+
+   @media (min-width: 600px) {
+#hoverhax:hover:after{
+  content:  '<--- ' attr(data);
+  background: white;
+  position: absolute;
+  color: black;
+  padding: 12px 10px;
+  font-size: 0.5em;
+}
+}
