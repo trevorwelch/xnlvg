@@ -5370,9 +5370,12 @@ img {
   Add custom styles here.
 
 */
+@font-face {
+  font-family: '07YsashisaGothicTegaki';
+  src: url('07YsashisaGothicTegaki.otf'); }
+
 .tnr {
-  font-family: 'Times New Roman', Times, serif;
-  /*src: url('../07YsashisaGothicTegaki.otf') format('opentype'); */ }
+  font-family: 'Times New Roman', Times, serif; }
 
 .opaque {
   background-color: rgba(255, 255, 255, 0.3); }
@@ -5390,8 +5393,7 @@ img {
     font-size: 0.5em; } }
 
 .tegaki {
-  font-family: '07YsashisaGothicTegaki';
-  src: url('../type/07YsashisaGothicTegaki.otf') format('opentype'); }
+  font-family: '07YsashisaGothicTegaki'; }
 
 div#okshadow {
   width: -webkit-fit-content;

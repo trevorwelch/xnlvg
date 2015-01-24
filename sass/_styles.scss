@@ -6,6 +6,8 @@
 
 */
 
+@font-face { font-family: '07YsashisaGothicTegaki'; src: url('07YsashisaGothicTegaki.otf'); } 
+
 
 .tnr {
   font-family: 'Times New Roman', Times, serif;
@@ -32,7 +34,6 @@
 
 .tegaki {
   font-family: '07YsashisaGothicTegaki';
-  src: url('../type/07YsashisaGothicTegaki.otf') format('opentype'); 
 }
 
 div#okshadow {
