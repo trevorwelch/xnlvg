@@ -5370,10 +5370,6 @@ img {
   Add custom styles here.
 
 */
-@font-face {
-  font-family: '07YsashisaGothicTegaki';
-  src: url('07YsashisaGothicTegaki.otf'); }
-
 .tnr {
   font-family: 'Times New Roman', Times, serif; }
 
@@ -5392,13 +5388,11 @@ img {
     padding: 12px 10px;
     font-size: 0.5em; } }
 
-.tegaki {
-  font-family: '07YsashisaGothicTegaki'; }
-
 div#okshadow {
   width: -webkit-fit-content;
   width: -moz-fit-content;
-  width: fit-content; }
+  width: fit-content;
+  margin: 2rem; }
 
 /*
    VERTICAL ALIGN
