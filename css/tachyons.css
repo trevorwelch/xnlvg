@@ -5388,11 +5388,10 @@ img {
     padding: 12px 10px;
     font-size: 0.5em; } }
 
-div#okshadow {
+#okshadow {
   width: -webkit-fit-content;
   width: -moz-fit-content;
-  width: fit-content;
-  margin: 2rem; }
+  width: fit-content; }
 
 /*
    VERTICAL ALIGN

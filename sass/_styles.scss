@@ -15,7 +15,8 @@
   	background-color: rgba(255,255,255,0.3);   
 }
 
-.supermega  { font-size: 14rem; 
+.supermega  { 
+	font-size: 14rem; 
 }
 
 @media (min-width: 600px) {
@@ -29,7 +30,6 @@
 	}
 }
 
-div#okshadow {
+#okshadow {
 	width: fit-content; 
-	margin: 2rem;
 }
