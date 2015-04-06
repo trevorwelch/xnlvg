@@ -31,5 +31,12 @@
 }
 
 #okshadow {
-	width: fit-content; 
+	/*width: fit-content; */
+}
+
+@media (max-width: 600px) {
+	input {
+		min-width: 20rem;
+	
+	}
 }
