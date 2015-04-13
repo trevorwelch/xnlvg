@@ -5459,6 +5459,8 @@ a.logo {
     padding: 9px; } }
 
 @media (min-width: 600px) {
+  .sq-box {
+    max-width: 20rem; }
   #hoverhax:hover:after {
     content: attr(data);
     background: transparent;
