@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="/css/tachyons.min.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script src="../js/okshadow.min.js"></script>
+    <script type="text/javascript" src="http://williamngan.github.io/pt/dist/pt.min.js"></script>
+    <script type="text/javascript" src="../js/vector.add.js"></script>
   </head>
   <body class="wi-100">
 
@@ -36,6 +38,51 @@
       <img id='okshadow' src="../img/tegaki-logo-basic.jpg">
       <!-- <p> This is the phone number: (925) 831-8706 </p> -->
     </main>
+
+    <div id="pt" style="width: 100%; height: 100%;"></div>
+<script type="text/javascript">
+    // Our exciting code
+    space = new CanvasSpace("xnlvg", "#FFF").display( "#pt" )
+    form = new Form(space)
+    blueby = new Circle( 500, 500 )
+    another = new Circle( 100, 100 ).setRadius( 50 )
+
+        
+        bot = {
+              animate: function( time, fs, context ) {
+
+
+
+                  form.fill( "#5AF" ).stroke( false )
+                  blueby.setRadius( Math.abs(1000 - time % 2000)/20 + 20 )
+                  form.circle( blueby )
+
+                  form.fill( false ).stroke( "#fc0", 5 )
+                  form.circle( another )
+
+                  whenithits = another.intersectCircle ( blueby )
+
+                  if (whenithits.length > 0) {
+                      form.fill ("#ff0000" )
+                      form.stroke( false )
+                      form.line ( new Line( whenithits[0] ).to( 50,-50 ) )
+
+                      form.points( whenithits, 20, false )
+                  }
+              },
+
+            onMouseAction: function(type, x, y, evt) {
+              if (type == "move") {
+                another.set( x, y )
+              }
+            }
+        }
+
+        space.add( bot )
+        space.bindMouse()
+        space.play() 
+
+</script>
 
   </body>
 </html>
