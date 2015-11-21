@@ -20,12 +20,19 @@
     <style>
     @media (min-width: 600px) {
   #hoverhax:hover:after {
-    content: '<--- ' attr(data);
+    content: ' ' attr(data);
     background: white;
     position: absolute;
     color: pink;
     padding: 1.5rem 1rem;
-    font-size: 0.5em; } }
+    font-size: 4.5em; } }
+
+    .headline {
+        padding-top: 0px;
+    }
+    body {
+         margin-top: 0px; 
+    }
     </style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -42,11 +49,12 @@
    
     <!-- Full Width Image Header -->
     <header class="">
-        <div class="headline">
+        <div class="headline" id="hoverhax" data="http://www.xnlvg.com">
             <div class="container">
                 <h1>How to share with our artist friends</h1>
                 <h2>Navigate to the <a href="http://share.xnlvg.com/submit" target="_blank">submission page</a>, or login to your Tumblr invitation.</h2>
             </div>
+<!-- <a href="http://www.xnlvg.com" class="text-nowrap" style="text-align: left; margin-left: -2%;  white-space: nowrap; font-size: 4rem;  font-weight: italic; color: gray; opacity: 0.6;" target="_blank">http://www.xnlvg.com</a> -->
         </div>
     </header>
 
@@ -72,9 +80,7 @@
             <h2 class="featurette-heading"> Choose your content type
                 <span class="text-muted">or click on one of the friendly <a href="http://media.tumblr.com/tumblr_m4ftk3VUrj1qge4y8.png" target="_blank">post type options</a> in the Tumblr portal. </span>
             </h2>
-            <p class="lead">            
-                To share music - use the Tumblr login portal, or use the "Link" option on the Submit page.
-            </p>
+            <p class="lead"><small>*To share music - use the Tumblr login portal, or use the "Link" option on the Submit page.</small></p>
         </div>
 
         <hr class="featurette-divider">
@@ -88,7 +94,11 @@
             <p class="lead">like so: #vincentvangogh <br><br>Please also add additional tags like #music #poetry #text #photography - these are searchable/sortable later on. </p>
         </div>
 
-        <!-- Fourth Featurette --><!-- 
+        <!-- Fourth Featurette -->
+        
+        <hr class="featurette-divider">
+
+        
         <div class="featurette" id="qa">
             <h2 class="featurette-heading"> F
                 <span class="text-muted">A</span>
@@ -96,42 +106,38 @@
             </h2>
             <p class="lead">
 
-<h4 id="emailtext"><strong><span style="line-height: 1.4;">How do I send a Text post?</span></strong></h4>
+
+
+            <h4 id="blabla"><strong><span style="line-height: 1.4;">Where is the website?</span></strong></h4>
+            <ol>
+            <li><span style="line-height: 1.4;"><a href="http://www.xnlvg.com" target="_blank">http://www.xnlvg.com</a> and then click on the nice colors, then enter your password.</span></li>
+            </ol>
+
+
+<h4 id="editor"><strong><span style="line-height: 1.4;">How do I edit my post?</span></strong></h4>
 <ol>
-<li><span style="line-height: 1.4;">Put the text in the body of the email.</span></li>
-<li><span style="line-height: 1.4;">Put a title in the subject line (optional).</span></li>
+<li><span style="line-height: 1.4;">Login to the Tumblr portal via the email invitation link you received. If you need a new invitation link, <a href="" target='_blank'>click here</a> and enter the team password.</span></li>
 </ol>
+
+
 <h4 id="emailphoto"><strong><span style="line-height: 1.4;">How do I send a Photo or many photos?</span></strong></h4>
 <ol>
-<li><span style="line-height: 1.4;">Attach photos to the email.</span></li>
-<li><span style="line-height: 1.4;">Write a caption in the subject line or body.</span></li>
+<li><span style="line-height: 1.4;">Use the 'Photo' dropdown on the Submit page, or login to the Tumblr portal.</span></li>
 </ol>
+
 <h4 id="emailphoto"><strong><span style="line-height: 1.4;">How do I send music?</span></strong></h4>
 <ol>
 <li><span style="line-height: 1.4;">Upload your work to Soundcloud or Dropbox</span></li>
 <li><span style="line-height: 1.4;">Put the <a href="https://soundcloud.com/pages/embed" target="_blank">SoundCloud embed link</a> or Dropbox link into the body of the email.</span></li>
 </ol>
 
-<h4 id="blabla"><strong><span style="line-height: 1.4;">Can I use Markdown to create rich text formatting when posting by email?</span></strong></h4>
-<ol>
-<li><span style="line-height: 1.4;">Why yes, you can: just be sure to include !m in any part of the email’s subject or body to enable Markdown. The !m code will automatically be removed from the final version. </span></li>
-</ol>
-<h4 id="blabla"><strong><span style="line-height: 1.4;">Where is the website?</span></strong></h4>
-<ol>
-<li><span style="line-height: 1.4;"><a href="http://www.xnlvg.com" target="_blank">http://www.xnlvg.com</a> and then click on the nice colors, then enter your password.</span></li>
-</ol>
 
-<h4 id="blabla"><strong><span style="line-height: 1.4;">Why email? Why not some submission portal?</span></strong></h4>
-<ol>
-<li><span style="line-height: 1.4;">
-    Because text. Because the internet. Just add the email address to your contact book, and you never have to point and click, you can share from anywhere, even with a bad connection. You could even share from <a href="https://en.wikipedia.org/wiki/Fja%C3%B0r%C3%A1rglj%C3%BAfur" target="_blank">Fjaðrárgljúfur</a>. 
 
-</span></li>
-</ol>
-<p><span style="line-height: 1.4;">A few more tips:</span>&#160;</p>
+<h4 id="blabla"><strong><span style="line-height: 1.4;">A few more tips:</span></strong></h4>
+
 <ul>
-<li><span style="line-height: 1.4;">Send posts directly to your mobile publishing email address. You cannot email another email address and then forward the email from there.</span></li>
-<li><span style="line-height: 1.4;">Make sure to put the publishing email address in the &#8220;To:&#8221; field; it cannot go in the &#8220;cc:&#8221; or &#8220;bcc:&#8221; field.</span></li>
+<li><span style="line-height: 1.4;">For new stanzas in written work, add a double line break.</span></li>
+<li><span style="line-height: 1.4;">To seperate written work from your commentary (if you desire to comment), add the HTML snippet <code> &lt;hr&gt;</code> and you'll get a stylish little divider line, like the one you see at the bottom of this FAQ.</span></li>
 <li><span style="line-height: 1.4;">Make sure to add tags! Otherwise nobody will ever know who did it!</span></li>
 </ul>
 
@@ -140,15 +146,15 @@
         </div>
 
         <hr class="featurette-divider">
- -->
+
 
         </div>
         
         <!-- Footer -->
         <footer>
             <div class="row">
-                <div class="col-lg-12">
-                    <p>This is gonna be great. ALL WORKS COPYRIGHT THEIR RESPECTIVE AUTHORS ©2015</p>
+                <div class="col-lg-12 text-center">
+                    <code style="color:black;">This is gonna be great. ALL WORKS COPYRIGHT THEIR RESPECTIVE AUTHORS ©2015</code>
                 </div>
             </div>
         </footer>
