@@ -19,13 +19,24 @@
 
     <style>
     @media (min-width: 600px) {
-  #hoverhax:hover:after {
-    content: ' ' attr(data);
-    background: white;
-    position: absolute;
-    color: pink;
-    padding: 1.5rem 1rem;
-    font-size: 4.5em; } }
+      #hoverhax:hover:after {
+        content: ' ' attr(data);
+        background: white;
+        position: absolute;
+        color: pink;
+        padding: 1.5rem 1rem;
+        font-size: 4.5em; } 
+    }
+
+    @media (min-width: 300px) {
+      #hoverhax:after {
+        content: ' ' attr(data);
+        background: white;
+        position: absolute;
+        color: pink;
+        font-size: 4.5em; } 
+    }
+
 
     .headline {
         padding-top: 0px;
