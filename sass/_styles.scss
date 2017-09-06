@@ -6,11 +6,134 @@
 
 */
 
-
 .tnr {
   font-family: 'Times New Roman', Times, serif;
-  /*src: url('../07YsashisaGothicTegaki.otf') format('opentype'); */ }
+}
 
-  .opaque {
+
+.opaque {
   	background-color: rgba(255,255,255,0.3);   
-  }
+}
+
+.supermega  { 
+	font-size: 14rem; 
+}
+
+@media (min-width: 600px) {
+	#hoverhax:hover:after {
+	  content:  '<--- ' attr(data);
+	  background: white;
+	  position: absolute;
+	  color: black;
+	  padding: 12px 10px;
+	  font-size: 0.5em;
+	}
+}
+
+#okshadow {
+	/*width: fit-content; */
+}
+
+@media (max-width: 600px) {
+	input {
+		min-width: 20rem;
+	
+	}
+}
+
+@font-face{
+	font-family:"sqmarket";
+src:url('../sqmarket-light.eot?#iefix') format("embedded-opentype"),
+url('../sqmarket-light.woff') format("woff"),
+url('../sqmarket-light.ttf') format("truetype");
+font-weight:400;
+font-style:normal
+}
+
+
+.logotype {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  color: #1F201B;
+  /*text-transform: uppercase;*/
+  font-size: 20px;
+  letter-spacing: -0.01rem;
+  z-index: 2;
+  text-decoration: none !important;
+  margin-left: 10px;
+}
+
+a.logo {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	    align-items: center;
+    justify-content: center;
+
+}
+
+.sq-button {
+	border-radius: 11px 11px 11px 11px;
+-moz-border-radius: 11px 11px 11px 11px;
+-webkit-border-radius: 11px 11px 11px 11px;
+/*border: 1px solid #D0D0D0;*/
+
+}
+
+@media (min-width: 600px) {
+	.sq-button {
+	padding: 16px;
+	height: 55px;
+	font-size: 19px;
+	transition: background-color 1s ease-out;
+	background-color: #28C101;
+	color: white;
+}
+.sq-button:hover {
+	/*border: 1px solid transparent;*/
+	background-color: #29EA49;
+	color: white;
+	transition: background-color 1s ease-out;
+}
+}
+
+@media (max-width: 600px) {
+	.sq-button {
+	width: 90%;
+	padding: 12px;
+	/*height: 55px;*/
+	font-size: 19px;
+	transition: background-color 1s ease-out;
+	background-color: #28C101;
+	color: white;
+}
+
+
+}
+
+@media (min-width: 600px) {
+
+.sq-box {
+	max-width: 20rem;
+}
+
+#hoverhax:hover:after{
+  content:  attr(data);
+  background: transparent;
+  position: absolute;
+  color: black;
+  padding-left: 2px 4px;
+  font-size: 1.5rem;
+  display: flex;
+  left: 63%;
+  bottom: 7.5%;
+  width: 300px;
+}
+}
+
+input[type='text'], input:not([type]), textarea {
+  font-size: 1.000rem;
+  width: 20rem;
+}
